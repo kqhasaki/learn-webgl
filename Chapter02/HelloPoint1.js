@@ -1,7 +1,16 @@
+/**
+ * 获取canvas元素
+ * 获取WebGL绘图上下文
+ * 初始化着色器
+ * 设置canvas背景色
+ * 清除canvas
+ * 绘图
+ */
+
 // 顶点着色器程序
 const VSHADER_SOURCE = `
   void main() {
-    gl_Position = vec4(0.0, 0.0, 0.0, 1.0);
+    gl_Position = vec4(0.3, 0.6, 0.0, 1.0);
     gl_PointSize = 10.0;
   }
 `;
